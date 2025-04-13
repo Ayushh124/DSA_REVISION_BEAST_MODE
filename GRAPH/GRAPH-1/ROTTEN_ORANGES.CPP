@@ -4,7 +4,7 @@ class Solution {
         vector<vector<int>> directions{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
     
         int orangesRotting(vector<vector<int>>& grid) {
-            int m = grid.size();
+            int m = grid.size();//size of rows
             int n = grid[0].size();
     
             queue<P> que;
