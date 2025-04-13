@@ -5,7 +5,7 @@ class Solution {
     
         int orangesRotting(vector<vector<int>>& grid) {
             int m = grid.size();//size of rows
-            int n = grid[0].size();
+            int n = grid[0].size();//size of columns
     
             queue<P> que;
             int freshCount = 0;
