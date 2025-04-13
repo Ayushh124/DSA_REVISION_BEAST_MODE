@@ -8,7 +8,7 @@ class Solution {
             int n = grid[0].size();//size of columns
     
             queue<P> que;
-            int freshCount = 0;
+            int freshCount = 0;//cnt
     
             for(int i = 0; i < m; i++) {
                 for(int j = 0; j < n; j++) {
