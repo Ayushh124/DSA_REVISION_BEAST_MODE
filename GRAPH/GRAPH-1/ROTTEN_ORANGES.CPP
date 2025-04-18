@@ -16,13 +16,14 @@ class Solution {
                         que.push({i, j}); //Storing all possible sources at once in the queue
                     }
                     else if(grid[i][j] == 1) {
-                        freshCount++;
+                        freshCount++;//incresese
                     }
                 }
             }
             
             if(freshCount == 0)
                 return 0;
+                //base case
             
             auto isSafe = [&](int x, int y) {
                 return x >= 0 && x < grid.size() && y >= 0 && y<grid[x].size() && grid[x][y] == 1;
