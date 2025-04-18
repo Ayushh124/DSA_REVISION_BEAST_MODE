@@ -26,7 +26,7 @@ class Solution {
                 //base case
             
             auto isSafe = [&](int x, int y) {
-                return x >= 0 && x < grid.size() && y >= 0 && y<grid[x].size() && grid[x][y] == 1;
+                return x >= 0 && x < grid.size() && y >= 0 && y<grid[x].size() && grid[x][y] == 1;///some case
             };
             
             //Applying Multi-Source BFS
