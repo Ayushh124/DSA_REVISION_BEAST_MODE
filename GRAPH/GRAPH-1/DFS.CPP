@@ -82,7 +82,7 @@ int main() {
     DFS(adj, V);
 
     cout << "\nThis is the DFS iterative : \n";//iterative
-    DFSIter(adj, V);
+    DFSIter(adj, V);//itervative 
 
 return 0;
 }
