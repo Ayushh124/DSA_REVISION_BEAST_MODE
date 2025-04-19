@@ -81,7 +81,7 @@ int main() {
     cout << "\nThis is the DFS recursive : \n";
     DFS(adj, V);
 
-    cout << "\nThis is the DFS iterative : \n";
+    cout << "\nThis is the DFS iterative : \n";//iterative
     DFSIter(adj, V);
 
 return 0;
