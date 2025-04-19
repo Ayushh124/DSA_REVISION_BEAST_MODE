@@ -75,7 +75,7 @@ int main() {
         for(int i:adj[i]) {
             cout << i << " ";
         }
-        cout << endl;
+        cout << endl;//prinnt 
     }
 
     cout << "\nThis is the DFS recursive : \n";
