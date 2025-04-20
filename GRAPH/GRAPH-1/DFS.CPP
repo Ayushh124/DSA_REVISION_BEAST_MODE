@@ -76,7 +76,7 @@ int main() {
             cout << i << " ";
         }
         cout << endl;//prinnt 
-        //priint 
+       
     }
 
     cout << "\nThis is the DFS recursive : \n";
